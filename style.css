@@ -37,7 +37,7 @@
   
     text-align: center;
   
-    overflow: overlay;
+    overflow: overlay; /*Sobrepoe a barra de rolagem, ou seja, flutua a barra de rolagem*/
   
     background-color: var(--bg-light);
   }
@@ -137,7 +137,7 @@
     overflow: hidden;
   }
   
-  body.menu-expanded > :not(nav) {
+  body.menu-expanded > :not(nav) { /*aplicar para todos exceto para o nav*/
     visibility: hidden;
   }
   
